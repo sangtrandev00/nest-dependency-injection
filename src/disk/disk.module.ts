@@ -7,5 +7,6 @@ import { PowerModule } from 'src/power/power.module';
   imports: [PowerModule],
   providers: [DiskService],
   controllers: [DiskController],
+  exports: [DiskService],
 })
 export class DiskModule {}
